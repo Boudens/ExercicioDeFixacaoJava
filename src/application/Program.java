@@ -19,7 +19,7 @@ public class Program {
 		Scanner sc = new Scanner(System.in);
 		DateTimeFormatter fmt1 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 		
-		System.out.println("Enter client data: ");
+		System.out.println("Saisir les données clients: ");
 		System.out.print("Le nom: ");
 		String name = sc.nextLine();
 		System.out.print("E-mail: ");
